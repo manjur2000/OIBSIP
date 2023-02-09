@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: .5s ease;
+}
+.bdiv{
+    padding: 10px;
+    max-height: 500px;
+    background-color:rgb(198 130 116);
+}
+.mar {
+    background-color: transparent;
+    border: 2px solid rgb(141, 106, 53);
+    color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.mar:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid wheat;
+    cursor: pointer;
+}
+.logo{
+    color: rgb(13, 13, 240);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5em;
+    line-height: 46px;
+    letter-spacing: 1px;
+}
+.fit{
+    color: black;
+}
+.club{
+    /* color: rgb(236, 192, 192); */
+    color: rgb(246, 239, 239);
+}
+.logo:hover{
+    cursor: pointer;
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+.list-container ul{
+    display: flex;
+    line-height: 46px;
+}
+.list-container ul li{
+    list-style-type: none;
+    margin-right: 2em;
+    letter-spacing: 1px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.list-container ul li a{
+    text-decoration: none;
+    color: black;
+}
+.list-container ul li:hover{
+    padding: 1px 0px;
+    cursor: pointer;
+    color: white;
+}
+.list-container ul li a:hover{
+    padding: 1px 0px;
+    cursor: pointer;
+    color: white;
+}
+.main-div{
+    max-width: 100%;
+}
+.lorem{
+    color: white;
+    max-width: 800px;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;
+    margin: 11.2% 9em;
+}
+@media (max-width:836px){
+    .lorem{
+        color: white;
+        max-width: 700px;
+        height: 100%;
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        letter-spacing: 1px;
+        margin: 15% 3em;
+    }
+    .btn{
+        margin-bottom: 1em;
+    }
+}
+.lorem-div{
+    padding: 10px 0px;
+    background-image: url("man.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid rgb(198 130 116);
+    color: rgb(217 179 171 / 98%);
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: rgb(198 130 116);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.Lorem-text{
+    font-weight: bolder;
+    font-size:3em;
+    text-align:left;
+}
+@media (max-width:708px) {
+    .main-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        text-align: center;     
+    }
+    .list-container ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .list-container ul li{
+        margin-right: 0px;
+    }
+    .list-container ul li:hover{
+        padding: 0px;
+    }
+    
+}
+.back {
+    padding: 30px 0px;
+    /* background-image: url("f.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: rgb(68, 186, 225);
+    color: black;
+}
+.pricing-header {
+    max-width: 600px;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2px;
+    font-size: larger;
+    /* text-decoration: underline; */
+}
+.price-chart {
+    width: 250px;
+    height: 350px;
+    margin-left: 0em;
+    border-radius: 5px;
+    color: white;
+    /* box-shadow: 0px 0px 5px rgb(190, 188, 188); */
+    box-shadow: -15px -15px 15px  rgba(255,255,255,0.2),
+    15px 15px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Titillium Web', sans-serif;
+    border: 1px solid black
+}
+.pricinghead{
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 2px;
+    letter-spacing: 2px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.price-chart #d {
+    width: 250px;
+    height: 60px;
+    border-radius: 7px 7px 0px 0px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 1em;
+    border: 1px solid black;
+}
+.d1{
+    background-color: #e0316f;
+}
+.p1:hover{
+    background-color: #e0316f;
+    color: white;
+    border:2px solid white;
+}
+.d2{
+    background-color: #9f3eda;
+}
+.p2:hover{
+    background-color: #9f3eda;
+    color: white;
+    border:2px solid white;
+}
+.d3{
+    background-color: #00bfff;
+}
+.p3:hover{
+    background-color: #00bfff;
+    color: white;
+    border:2px solid white;
+}
+.price-chart span {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.pricing-flex {
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
+    /* this */
+}
+.price-chart-btn {
+    width: 150px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+/* .price-chart-btn:hover {
+    color: azure;
+    border: 2px solid white;
+    background-color: transparent;
+} */
+
+.pricing-flex .price-chart {
+    margin-bottom: 10px;
+}
+@media (max-width:900px) {
+    .pricing-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-flex .price-chart{
+        margin: 20px auto;
+    }
+}
+footer{
+    background-color: rgb(56, 52, 52);
+    color: white;
+    height: 50px;
+    padding: 40px;
+    max-width: 100%;
+}
